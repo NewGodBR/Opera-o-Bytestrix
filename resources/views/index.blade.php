@@ -16,8 +16,8 @@
                                 Starting at $19
                             </div>
                             <div class="category-banner__item-content">
-                                <h3 class="mb-0">Camisas1</h3>
-                                <a href="http://127.0.0.1:8000/shop?_token=XwRcw3VIrwufcNGNKx9xs2SC00fGFf3NrQDXWpEB&page=1&size=12&order=-1&brands=&categories=2&min=1&max=500"
+                                <h3 class="mb-0">Camisas</h3>
+                                <a href="{{ route('shop.index.filtercamisas') }}"
                                  class="btn-link default-underline text-uppercase fw-medium">{{__('messages.Shop Now')}}</a>
                             </div>
                         </div>
@@ -31,7 +31,7 @@
                             </div>
                             <div class="category-banner__item-content">
                                 <h3 class="mb-0">Canecas</h3>
-                                <a href="http://127.0.0.1:8000/shop?_token=XwRcw3VIrwufcNGNKx9xs2SC00fGFf3NrQDXWpEB&page=1&size=12&order=-1&brands=&categories=1&min=1&max=500"
+                                <a href="{{ route('shop.index.filtercanecas') }}"
                                  class="btn-link default-underline text-uppercase fw-medium">{{__('messages.Shop Now')}}</a>
                             </div>
                         </div>
