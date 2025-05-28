@@ -254,7 +254,8 @@
         }
 
         .logo__image {
-            max-width: 220px;
+            max-height: 100px;
+            margin-bottom: 50px;
         }
 
         .product-item{
