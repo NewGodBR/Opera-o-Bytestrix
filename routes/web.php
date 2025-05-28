@@ -18,7 +18,7 @@ Auth::routes();
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/shop', [ShopController::class, 'index'])->name('shop.index');
 Route::get('/shop?_token=B2OwOclBsaiCSjF31Q1wbNkrg0DXQeAJhBhbftNa&page=1&size=12&order=-1&brands=&categories=1&min=1&max=500', [ShopController::class, 'index'])->name('shop.index.filtercamisas');
-Route::get('/shop?_token=B2OwOclBsaiCSjF31Q1wbNkrg0DXQeAJhBhbftNa&page=1&size=12&order=-1&brands=&categories=2&min=1&max=500', [ShopController::class, 'index'])->name('shop.index.filtercamisas');
+Route::get('/shop?_token=B2OwOclBsaiCSjF31Q1wbNkrg0DXQeAJhBhbftNa&page=1&size=12&order=-1&brands=&categories=2&min=1&max=500', [ShopController::class, 'index'])->name('shop.index.filtercanecas');
 Route::get('/shop/{product_slug}', [ShopController::class, 'productDetails'])->name('shop.product.details');
 
 Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
